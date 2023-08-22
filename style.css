@@ -1,3 +1,7 @@
+body{
+        background-color: white;
+}
+
 .btn{
     display: inline-block;
     outline: 0;
@@ -46,4 +50,15 @@
 
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
+}
+
+
+@media only screen and (max-width: 600px){
+    .btn {
+        font-size: 16px;
+        margin: 6px;
+    }
+    .styled-table {
+        min-width: none;
+    }
 }
