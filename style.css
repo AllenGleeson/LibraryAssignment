@@ -59,6 +59,6 @@ body{
         margin: 6px;
     }
     .styled-table {
-        min-width: none;
+        min-width: 0 !important;
     }
 }
